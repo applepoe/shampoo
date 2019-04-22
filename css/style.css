@@ -2,16 +2,17 @@
   margin: 0px;
   padding: 0px; 
 }
+
 .back{
-  width: 1110px;
-  height: 500px;
+  width: 100%;
+  height: 100%;
   position: absolute;
   background:linear-gradient(to right, #dcdd99 0%, #dee2e2 80%);
   z-index: -3;
 }
 
 .table{
-  width: 1110px;
+  width: 100%;
   height: 150px;
   left: 0px;
   bottom: 0px;
@@ -150,21 +151,21 @@
 
 @keyframes elevatorgo{
   0% {
-    top: 110px;
+    top: 160px;
   }
   100% {
-    top: 150px;
+    top: 200px;
    
   }
 }
 
 @keyframes bubble{
   0%{
-    top: 115px;
+    top: 160px;
   }
   
   100%{
-    top: 125px;
+    top: 190px;
     width: 130px;
     height: 130px;
   } 
