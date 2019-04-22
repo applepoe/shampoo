@@ -44,12 +44,13 @@
 }
 
 .headd{
-  position: relative;
+  position: absolute;
   width: 35px;
   height: 190px;
   background: #c8cdd1;
-  left: 47%;
-  top: 10px; 
+  left: 130px;
+  top: -180px; 
+  z-index: -3;
   animation-name: elevatorgo;
   animation-duration: 3s;
   animation-iteration-count: infinite;
@@ -95,6 +96,11 @@
   right: -70px;
   background:#0c6da0;
 }
+.haa{
+  width:50px;
+  height: 200px;
+  
+}
 
 .bubble:hover{
   width: 100px;
@@ -108,13 +114,12 @@
   width: 50px;
   height: 50px;
   background:linear-gradient(to bottom, #b7f4eb 0%, #76d6db 80%);
-  left: 120px;
-  top: -100px;
+  left: 260px;
+  top: -130px;
   border-radius: 50%;
-  transition: all 5s cubic-bezier(0.68, -0.55, 0.265, 1.55) 0.2s;
-/*   animation-name: bubble; 
+  animation-name: bubble; 
   animation-duration: 3s;
-  animation-iteration-count: infinite;*/
+  animation-iteration-count: infinite;
 }
 
 .b1{
@@ -160,25 +165,28 @@
 
 @keyframes elevatorgo{
   0% {
-    top: 30%;
+    left: 130px;
+    top: -180px;
   }
   100% {
-    top: 40%;
+    left: 130px;
+    top: -130px; 
    
   }
 }
 
-/* @keyframes bubble{ 
+ @keyframes bubble{ 
   0%{
-    top: 230px;
+    left: 260px;
+    top: -130px;
   }
   
   100%{
-    top: 270px;
+    top: -90px;
     width: 130px;
     height: 130px;
   } 
-}*/
+}
 
 @keyframes b1{
   0%{
